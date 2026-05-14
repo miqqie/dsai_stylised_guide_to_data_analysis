@@ -7,10 +7,11 @@ Welcome! This repository provides a beginner-friendly guide to data cleaning usi
 2. [Handling Duplicates](#2-handling-duplicates)
 3. [Managing Missing Values](#3-managing-missing-values)
 4. [Outlier Detection & Treatment](#4-outlier-detection--treatment)
-5. [Unpacking Hidden Data](#5-unpacking-hidden-data)
+5. [Unpacking Hidden Data](#5-addressing-hidden-data-unpacking-json)
 6. [Final Summary Checklist](#6-final-summary-checklist)
 
 ---
+![datacleanin](datacleaning.png)
 
 ## 1. The Analytical Framework
 Before writing any code, a professional analyst follows a three-step framework to ensure they aren't wasting time on irrelevant data.
