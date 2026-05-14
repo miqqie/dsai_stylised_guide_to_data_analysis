@@ -57,7 +57,7 @@ We use the **Interquartile Range (IQR)** to build statistical safety fences:
 ---
 
 ## 5. Addressing "Hidden" Data: Unpacking JSON
-As identified in Step C of our framework, the `categories` column is **"Available but Hidden"** inside JSON-formatted strings. To make this data usable for future sector-based analysis, we must unpack it.
+To make JSON data usable for analysis, we must unpack it.
 
 ### The General Approach to Unpacking:
 Instead of treating the column as plain text, we apply a transformation process that follows these logic steps:
