@@ -56,13 +56,16 @@ We use the **Interquartile Range (IQR)** to build statistical safety fences:
 
 ---
 
-## 5. Unpacking Hidden Data
-Often, valuable data is "trapped" inside text strings that look like Python lists or JSON (e.g., the `categories` column).
+## 5. Addressing "Hidden" Data: Unpacking JSON
+As identified in Step C of our framework, the `categories` column is **"Available but Hidden"** inside JSON-formatted strings. To make this data usable for future sector-based analysis, we must unpack it.
 
-**The Unpacking Strategy:**
-1.  **Convert:** Use the `ast` library to turn the string into a real Python object.
-2.  **Extract:** Access the specific nested value, such as the industry "category".
-3.  **Safe Functions:** Use `try-except` logic to prevent the program from crashing if it hits malformed or empty data.
+### The General Approach to Unpacking:
+Instead of treating the column as plain text, we apply a transformation process that follows these logic steps:
+
+1.  **Standardize Format:** We replace inconsistent quotes (e.g., changing single quotes to double quotes) to ensure the text strictly follows JSON standards.
+2.  **Safe Extraction:** We attempt to "load" the string into a structured list or dictionary format. If the string is empty or malformed, we assign a default label like **"Uncategorized"** to prevent the analysis from crashing.
+3.  **Target the Data:** We isolate the specific "category" key within the first item of the list.
+4.  **Create New Features:** We save this extracted value into a new column, like `primary_category`, which allows us to unlock insights into job mark
 
 ---
 
