@@ -1,6 +1,6 @@
 # 📊 Singapore Job Market: Data Cleaning Guide
 
-Welcome! This repository provides a beginner-friendly guide to data cleaning using real-world job market data from Singapore. In data science, we follow the principle of **"Garbage In, Garbage Out"**—if your data is messy, your insights will be wrong. This guide ensures your analysis is built on a clean, reliable foundation.
+Welcome! This repository provides a beginner-friendly guide to data cleaning using real-world job market data from Singapore. In data analysis, we follow the principle of **"Garbage In, Garbage Out"**—if your data is messy, your insights will be wrong. This guide ensures your analysis is built on a clean, reliable foundation.
 
 ## 📖 Table of Contents
 1. [The Analytical Framework](#1-the-analytical-framework)
