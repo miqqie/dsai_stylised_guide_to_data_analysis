@@ -75,3 +75,5 @@ Instead of treating the column as plain text, we apply a transformation process 
 * [ ] **Protect Data Integrity:** Define Priority Columns and avoid imputation whenever possible.
 * [ ] **Visualize First:** Always understand your distribution before applying rules.
 * [ ] **Logic Check:** Apply domain knowledge (e.g., salaries cannot be negative) to your statistical formulas.
+
+Please refer to [data_cleaning_guide.ipynb](data_cleaning_guide.ipynb) for a stylised example.
