@@ -76,4 +76,8 @@ Instead of treating the column as plain text, we apply a transformation process 
 * [ ] **Visualize First:** Always understand your distribution before applying rules.
 * [ ] **Logic Check:** Apply domain knowledge (e.g., salaries cannot be negative) to your statistical formulas.
 
-Please refer to [data_cleaning_guide.ipynb](data_cleaning_guide.ipynb) for a stylised example. To run the notebook, make sure to 1) create the pds environment using [environment.yml](environment.yml) 2) select pds in jupyter notebook kernel 3) ensure SGJobdata.csv is in the same directory as the notebook. 
+Please refer to [data_cleaning_guide.ipynb](data_cleaning_guide.ipynb) for a stylised example. To run the notebook, make sure to 
+
+1) create the pds environment using [environment.yml](environment.yml)
+2) select pds in jupyter notebook kernel
+3) ensure SGJobdata.csv is in the same directory as the notebook. 
